@@ -1,3 +1,16 @@
-# Polygon Analysis in C
+# Graph Cycle Detector
 
-This C program analyzes geometric properties of polygons, specifically calculating area and perimeter.
+A C program to find and analyze cycles (n-gons, n > 2) in weighted, undirected graphs.
+
+## Description
+
+Uses DFS on an adjacency list graph to detect simple cycles, calculate perimeters (sum of edge weights), and report frequency by size.
+
+## Features
+
+- Graph representation (adjacency lists).
+- Cycle detection (DFS).
+- Perimeter calculation.
+- Shape frequency reporting.
+- Reads graph data from a file.
+
